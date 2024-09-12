@@ -1,3 +1,8 @@
+@font-face {
+    font-family: PT Sans;
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,4 +22,22 @@ ol {
 .container {
     width: 1176px;
     margin: 0 auto;
+}
+
+.sec11 {
+    &-wrapper {
+        background-color: #2D2D2D;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-title {
+        font-family: PT Sans;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 46.92px;
+        text-align: left;
+
+    }
 }
