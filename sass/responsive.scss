@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    .container {
+        width: 738px;
+    }
+    .sec11 {
+        &-form {
+            &-btn {
+                z-index: 1;
+            }
+        }
+        &-pos {
+            right: -421px;
+        }
+    }
+}
+
+@media (max-width: 320px){
+    .container {
+        width: 290px;
+    }
+    .sec11 {
+
+        &-text {
+            width: 100%;
+        }
+
+        &-form {
+            width: 100%;
+            padding: 0 0;
+
+            &-accept {
+                &-label {
+                    width: 290px;
+                }
+            }
+        }
+
+        &-pos {
+            display: none;
+        }
+    }
+}

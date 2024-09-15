@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .container {
+    width: 738px;
+  }
+  .sec11-form-btn {
+    z-index: 1;
+  }
+  .sec11-pos {
+    right: -421px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 290px;
+  }
+  .sec11-text {
+    width: 100%;
+  }
+  .sec11-form {
+    width: 100%;
+    padding: 0 0;
+  }
+  .sec11-form-accept-label {
+    width: 290px;
+  }
+  .sec11-pos {
+    display: none;
+  }
+}/*# sourceMappingURL=responsive.css.map */
