@@ -1,1 +1,132 @@
-/*# sourceMappingURL=global.css.map */
+.header-block-top {
+  display: flex;
+  background: #2D2D2D;
+}
+.header-block-top .container {
+  display: flex;
+  gap: 80px;
+}
+.header-block-top-item {
+  display: flex;
+  align-items: center;
+  gap: 21.1px;
+}
+.header-block-top-item .img-evrokran {
+  width: 126.11px;
+  height: 53.28px;
+}
+.header-block-top-item h6 {
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 19.91px;
+  font-family: Montserrat;
+}
+.header-block-top-icon {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.header-block-top-icon-clockandkarta {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+}
+.header-block-top-icon-clockandkarta .clock {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-block-top-icon-clockandkarta .clock img {
+  width: 21px;
+  height: 21px;
+}
+.header-block-top-icon-clockandkarta .clock h6 {
+  color: #fff;
+}
+.header-block-top-icon-clockandkarta .karta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-block-top-icon-clockandkarta .karta img {
+  width: 21px;
+  height: 21px;
+}
+.header-block-top-icon-clockandkarta .karta h6 {
+  color: #fff;
+}
+.header-block-top-icon-btn button {
+  padding: 8px 14px;
+  border-color: #FFBF1D;
+  background: transparent;
+}
+.header-block-top-icon-btn button a {
+  border: #FFBF1D;
+  text-decoration: none;
+  color: #fff;
+}
+.header-block-top-icon-tel {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.header-block-top-icon-tel img {
+  width: 21px;
+  height: 21px;
+}
+.header-block-top-icon-tel p {
+  color: #fff;
+}
+.header-block-bottom .container {
+  display: flex;
+  gap: 154px;
+}
+.header-block-bottom-item ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+.header-block-bottom-item ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  font-weight: 300;
+}
+.header-block-bottom-input {
+  display: flex;
+  align-items: center;
+}
+.header-block-bottom-input input {
+  width: 240px;
+  height: 30px;
+}
+.header-block-bottom-input img {
+  position: relative;
+  left: 230px;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 1176px;
+  margin: 0 auto;
+}/*# sourceMappingURL=global.css.map */
