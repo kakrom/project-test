@@ -1,0 +1,144 @@
+
+.header-block {
+    &-top {
+        .container {
+            display: flex;
+            gap: 80px;
+        }
+
+        display: flex;
+        background: #2D2D2D;
+
+        &-item {
+            .img-evrokran {
+                width: 126.11px;
+                height: 53.28px;
+            }
+
+            display: flex;
+            align-items: center;
+            gap: 21.1px;
+
+            h6 {
+                color: white;
+                font-size: 12px;
+                font-weight: 200;
+                line-height: 19.91px;
+                font-family: Montserrat;
+
+            }
+        }
+
+        &-icon {
+            display: flex;
+            align-items: center;
+            gap: 44px;
+
+            &-clockandkarta {
+                align-items: center;
+                display: flex;
+                gap: 18px;
+
+                .clock {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    img {
+                        width: 21px;
+                        height: 21px;
+                    }
+
+                    h6 {
+                        color: #fff;
+                    }
+                }
+
+                .karta {
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+
+                    img {
+                        width: 21px;
+                        height: 21px;
+                    }
+
+                    h6 {
+                        color: #fff;
+                    }
+                }
+            }
+
+            &-btn {
+                button {
+                    padding: 8px 14px;
+                    border-color: #FFBF1D;
+                    background: transparent;
+
+                    a {
+                        border: #FFBF1D;
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+
+            }
+
+            &-tel {
+                display: flex;
+                align-items: center;
+                gap: 18px;
+
+                img {
+                    width: 21px;
+                    height: 21px;
+                }
+
+                p {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &-bottom {
+        .container {
+            display: flex;
+            gap: 154px;
+        }
+
+        &-item {
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                    font-size: 19px;
+                    font-weight: 300;
+                }
+            }
+
+        }
+        &-input{
+            display: flex;
+            align-items: center;
+            input{
+                width: 240px;
+                height: 30px;
+            }
+            img{
+                position: relative;
+                left: 230px;
+                color: #fff;
+                width: 15px;
+                height: 15px;
+            }
+        }
+
+    }
+}
