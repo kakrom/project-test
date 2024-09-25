@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: PT Sans;
   src: url(../fonts/PTSans-Regular.ttf);
@@ -38,11 +39,17 @@ ol {
   gap: 30px;
 }
 .sec11-wrapper {
-  position: relative;
+  background-image: url(../images/_DSC2310\ копия2222\ 1.png);
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: #2D2D2D;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.sec11-wrapper-border {
+  width: 100%;
+  height: 33px;
 }
 .sec11-title {
   font-family: PT Sans;
@@ -133,8 +140,7 @@ ol {
   color: #fff;
   border: none;
 }
-.sec11-pos {
-  position: absolute;
-  top: 0;
-  right: 0;
+
+.sec12-map {
+  width: 100%;
 }/*# sourceMappingURL=global.css.map */

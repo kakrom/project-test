@@ -11,31 +11,37 @@
 
 <body>
     <section class="sec11-wrapper">
-        <img class="sec11-pos" src="./images/_DSC2310 копия2222 1.png" alt="">
-        <img src="./images/Верх.png" alt="">
+        <img class="sec11-wrapper-border" src="./images/Верх.png" alt="">
         <div class="container">
             <div class="sec11">
                 <h3 class="sec11-title">Остались вопросы?</h3>
                 <p class="sec11-text">Оставьте заявку на звонок и мы ответим на все ваши вопросы в самое ближайшее время
                 </p>
                 <form autocomplete="on" class="sec11-form">
-                    <input class="sec11-form-input" type="text" placeholder="Ваше имя" required>
-                    <input class="sec11-form-input" type="tel" placeholder="Ваш телефон*" required>
-                    <input class="sec11-form-input" type="email" placeholder="Ваша почта" required>
-                    <input class="sec11-form-input" type="text" placeholder="Оставьте ваш вопрос">
+                    <input id="sec11-name" class="sec11-form-input" type="text" placeholder="Ваше имя" required>
+                    <input id="sec11-number" class="sec11-form-input" type="tel" placeholder="Ваш телефон*" required>
+                    <input id="sec11-email" class="sec11-form-input" type="email" placeholder="Ваша почта" required>
+                    <input id="sec11-survey" class="sec11-form-input" type="text" placeholder="Оставьте ваш вопрос">
 
                     <div class="sec11-form-accept">
-                        <input id="check" class="sec11-form-accept-check" type="checkbox" required>
-                        <label for="check" class="sec11-form-accept-label">Я согласен с условиями обработки и
+                        <input id="sec11-check" class="sec11-form-accept-check" type="checkbox" required>
+                        <label for="sec11-check" class="sec11-form-accept-label">Я согласен с условиями обработки и
                             использования моих персональных данных</label>
                     </div>
 
-                    <button  class="sec11-form-btn" type="submit">Заказать звонок</button>
+                    <button id="sec11-btn" class="sec11-form-btn" type="submit">Заказать звонок</button>
                 </form>
             </div>
         </div>
-        <img src="./images/Низ.png" alt="">
+        <img class="sec11-wrapper-border" src="./images/Низ.png" alt="">
     </section>
+    <section class="sec12-wrapper">
+            <div class="sec12">
+                <img class="sec12-map" src="./images/Rectangle 48.png" alt="">
+            </div>
+    </section>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
