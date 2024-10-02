@@ -1,4 +1,7 @@
 
+@charset "UTF-8";
+
+
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
 
@@ -15,6 +18,7 @@ body {
   overflow-x: hidden;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +34,27 @@ ul,
 ol {
   list-style: none;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.liberher {
+  background-image: url(/image/Надпись\ Liebherr.png);
+  background-repeat: no-repeat;
+  width: 665px;
+  height: 220px;
+}
+
+.header-left {
+  margin-left: 23vh;
+}
+.header-left .text {
+  font-family: "PT Sans", sans-serif;
 
 .container {
   width: 1176px;
@@ -49,11 +74,83 @@ h2 {
 .catalog h2 {
   text-align: start;
   font-family: "PT Sans";
+
   font-size: 40px;
   font-weight: 700;
   line-height: 56.68px;
   text-align: left;
 }
+
+
+.container {
+  width: 1176px;
+  margin: auto;
+  margin-top: -200px;
+}
+.container .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-top: 55px;
+}
+.container .item {
+  text-align: center;
+  width: 30%;
+  height: 408px;
+}
+.container .item .ptext1 {
+  width: 369px;
+  height: 55px;
+  background: #FCB427;
+  color: #fff;
+  align-items: center;
+  font-size: 20px;
+}
+.container .item .ptext2 {
+  width: 369px;
+  height: 55px;
+  background: #FCB427;
+  color: #fff;
+  align-items: center;
+  font-size: 22px;
+}
+.container .item .ptext3 {
+  width: 369px;
+  height: 55px;
+  background: #FCB427;
+  color: #fff;
+  align-items: center;
+  font-size: 20px;
+}
+.container .item img {
+  width: 105%;
+  height: auto;
+  border-radius: 8px;
+}
+.container .center-text {
+  width: 1190px;
+  height: 1034px;
+  top: 7567px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+}
+.container .center-text .centertext1 {
+  margin-top: 25px;
+}
+.container .center-text .centertext1 .text1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56.68px;
+  text-align: left;
+  margin-top: 35vh;
+  margin-bottom: 55px;
+}
+.container .center-text .centertext1 .text2 {
+  width: 1190px;
+  height: 75px;
 
 .projects {
   padding: 50px;
@@ -154,10 +251,86 @@ h2 {
 }
 .project-description-text p {
   font-family: "Montserrat";
+
   font-size: 16px;
   font-weight: 400;
   line-height: 25.07px;
   text-align: left;
+
+}
+.container .center-text .centertext2 .text3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56.68px;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.container .center-text .centertext2 .text4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.07px;
+  text-align: left;
+}
+.container .center-text .centertext2 .text4 {
+  margin-bottom: 15px;
+}
+.container .center-text .centertext2 ul {
+  padding: 0 35px;
+  padding-left: 25px;
+  list-style-type: none;
+  margin-left: 11px;
+  margin-top: 15px;
+}
+.container .center-text .centertext2 .small-text {
+  padding: 15px;
+}
+.container .center-text .centertext2 li {
+  padding: 8px;
+  position: relative;
+}
+.container .center-text .centertext2 li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #FCB427;
+  position: absolute;
+  left: -25px;
+  top: 18px;
+}
+
+@media (max-width: 778px) {
+  .header-left .text {
+    margin-bottom: 32vh;
+  }
+  .liberher {
+    display: none;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 55px;
+    padding: 0 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content .item {
+    width: 354px;
+    height: 408px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .content .item img {
+    width: 354px;
+    height: auto;
+  }
+  .content .item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
   color: #2d2d2d;
   margin-top: 10px;
 }
@@ -481,4 +654,5 @@ h2 {
 
 .sec12-map {
   width: 100%;
+
 }/*# sourceMappingURL=global.css.map */
