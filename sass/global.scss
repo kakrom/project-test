@@ -19,9 +19,9 @@ body {
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 @mixin flex{
     display: flex;
@@ -29,13 +29,13 @@ body {
     align-items: center;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li,
 ul,
 ol {
-    list-style: none;
+  list-style: none;
 }
 
 body {
@@ -66,7 +66,437 @@ body {
 }
 
 .container {
+  width: 1176px;
+  margin: 0 auto;
+  .sliderbox {
+    display: flex;
+    height: 600px;
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+  .rentalequipment {
     width: 1176px;
+
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+
+    background-image: url("../img/Изображение.png");
+
+    .left {
+      background-color: rgba(255, 255, 255, 0.868);
+      padding-top: 117px;
+      padding-left: 50px;
+      .streaky {
+        margin-bottom: 20px;
+      }
+
+      .liebherr {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        width: 545px;
+        margin-bottom: 30px;
+      }
+
+      .liebherrjewels {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: 16px;
+        width: 400px;
+        margin-bottom: 30px;
+      }
+      .Requestacall {
+        width: 219px;
+        height: 50px;
+        background-color: transparent;
+      }
+
+      .twobtn {
+        display: flex;
+        gap: 28px;
+      }
+
+      .leftarroww {
+        width: 70px;
+        height: 70px;
+        border: 1px solid white;
+        margin-left: 478px;
+        margin-top: 94px;
+        font-size: 35px;
+        padding: 20px;
+      }
+
+      .leftarroww:hover {
+        background: #fcb427;
+        transition: 0.5s;
+      }
+
+      .Equipmentcatalog {
+        width: 219px;
+        height: 50px;
+        background-color: transparent;
+      }
+
+      .Equipmentcatalog:hover {
+        background-color: #fcb427;
+        color: white;
+        border: none;
+        transition: 0.5s;
+      }
+      .Requestacall:hover {
+        background-color: #fcb427;
+        color: white;
+        border: none;
+        transition: 0.5s;
+      }
+    }
+    .rightarroww {
+      width: 70px;
+      height: 70px;
+      border: 1px solid white;
+      margin-left: 458px;
+      margin-top: 94px;
+      font-size: 35px;
+      padding: 16px;
+      margin-top: 530px;
+      margin-right: 600px;
+      margin-left: 0px;
+    }
+    .rightarroww:hover {
+      background: #fcb427;
+      transition: 0.5s;
+    }
+  }
+
+
+  .Specialequipment {
+    height: 565px;
+    background-image: url("../img/Фон.png");
+    h2 {
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+      margin-top: 51px;
+      margin-left: 215px;
+      span {
+        color: #fcb427;
+      }
+    }
+    img {
+      width: 646px;
+      height: 458px;
+    }
+    .imgandCrawlercranes {
+      display: flex;
+      margin-top: 55px;
+      h3 {
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        font-size: 33px;
+      }
+      p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        width: 500px;
+        margin-top: 32px;
+      }
+      .straightline {
+        display: flex;
+        img {
+          width: 120px;
+          height: 100px;
+        }
+      }
+      .Selectaspecialist {
+        width: 219px;
+        height: 50px;
+        background-color: transparent;
+        margin-top: 32px;
+      }
+      .Selectaspecialist:hover {
+        background-color: #fcb427;
+        color: white;
+        border: none;
+        transition: 0.5s;
+      }
+    }
+    .strelkaa {
+      display: flex;
+      gap: 10px;
+      margin-left: 370px;
+      margin-top: 54px;
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .Reliablewithus {
+    height: 600px;
+    background-color: rgb(246, 246, 246);
+    .reliably {
+      font-size: 40px;
+      font-family: "PT Sans", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      margin-left: 114px;
+      padding-top: 20px;
+    }
+    .textandicons {
+      display: flex;
+      margin-left: 114px;
+      gap: 50px;
+      .icons {
+        display: flex;
+        gap: 80px;
+        .twoimage {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          gap: 70px;
+          img {
+            width: 70px;
+            height: 69px;
+          }
+          p {
+            width: 175px;
+            font-size: 18px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+          }
+        }
+      }
+      .text {
+        p {
+          width: 460px;
+          font-size: 16px;
+          margin-top: 40px;
+        }
+      }
+    }
+    .blackblock {
+      display: flex;
+      flex-direction: column;
+      height: 264px;
+      background-color: black;
+      margin-top: 100px;
+      .unions {
+        margin-top: 50px;
+      }
+      .number {
+        display: flex;
+        gap: 150px;
+        margin: 0 auto;
+        margin-top: 50px;
+        .twenty {
+          p {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+          }
+        }
+
+        .thousand {
+          p {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+          }
+        }
+        .twentyplus {
+          p {
+            color: white;
+            width: 200px;
+            text-align: center;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+    .sliderbox {
+      display: flex;
+      height: 600px;
+      overflow: scroll;
+    }
+    .rentalequipment {
+      width: 768px;
+      .left {
+        width: 65%;
+        padding-left: 20px;
+        padding-top: 90px;
+        .liebherr {
+          font-family: "PT Sans", sans-serif;
+          font-weight: 700;
+          font-size: 44px;
+          width: 445px;
+          margin-bottom: 30px;
+        }
+
+        .twobtn {
+          display: flex;
+          gap: 28px;
+        }
+        .leftarroww {
+          margin-left: 410px;
+          margin-top: 64px;
+        }
+      }
+    }
+    .Specialequipment {
+      h2 {
+        display: none;
+      }
+      .imgandCrawlercranes {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        img {
+          width: 648px;
+          height: 458px;
+          margin-bottom: 50px;
+        }
+        .Crawlercranes {
+          margin-left: 70px;
+          .strelkaa {
+            margin-right: 20px;
+            display: flex;
+            gap: 10px;
+            i {
+              font-size: 50px;
+            }
+          }
+        }
+      }
+    }
+    .Reliablewithus {
+      height: 865px;
+      .reliably {
+        margin-top: 350px;
+      }
+      .textandicons {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .blackblock {
+        height: 710px;
+        .number {
+          display: flex;
+          flex-direction: column;
+          .twenty {
+            margin: 0 auto;
+          }
+          .twentyplus {
+            margin: 0 auto;
+            img {
+              padding-left: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+    .sliderbox {
+      overflow: hidden;
+    }
+    .rentalequipment {
+      .leftarroww,
+      .rightarroww {
+        display: none;
+      }
+      .left {
+        width: 100%;
+        padding-top: 31px;
+        .liebherr {
+          width: 291px;
+        }
+        .liebherrjewels {
+          width: 284px;
+        }
+        .twobtn {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  
+    .Specialequipment {
+      h2 {
+        display: block;
+        width: 315px;
+        font-size: 40px;
+        margin-left: 15px;
+      }
+      .imgandCrawlercranes {
+        img {
+          width: 291px;
+          height: 206px;
+        }
+        .Crawlercranes {
+          margin-left: 15px;
+          p {
+            width: 289px;
+          }
+          .strelkaa {
+            display: none;
+          }
+          .straightline {
+            .imgg {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  
+    .Reliablewithus {
+      .reliably {
+        width: 300px;
+        margin-left: 15px;
+      }
+      .textandicons {
+        margin-left: 10px;
+        .icons {
+          display: flex;
+          flex-direction: column;
+          margin-top: 50px;
+        }
+        .text {
+          margin-left: 30px;
+          p {
+            width: 220px;
+          }
+        }
+      }
+      .blackblock {
+        .unions  {
+            margin-top: 74px;
+        }
+      }
+    }
+  }
+}
+
 
     margin: auto;
     margin-top: -200px;
@@ -751,3 +1181,4 @@ h2 {
 
 
 }
+

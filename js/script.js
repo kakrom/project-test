@@ -1,4 +1,12 @@
 
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const gallery = document.querySelector('.projects-gallery');
 
@@ -84,3 +92,4 @@ btn.addEventListener("click", () => {
 
   localStorage.setItem("user", JSON.stringify(user));
 });
+
