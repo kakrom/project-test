@@ -1,0 +1,406 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li,
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 1176px;
+  margin: 0 auto;
+}
+.container .sliderbox {
+  display: flex;
+  height: 600px;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+.container .rentalequipment {
+  width: 1176px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  background-image: url("../img/Изображение.png");
+}
+.container .rentalequipment .left {
+  background-color: rgba(255, 255, 255, 0.868);
+  padding-top: 117px;
+  padding-left: 50px;
+}
+.container .rentalequipment .left .streaky {
+  margin-bottom: 20px;
+}
+.container .rentalequipment .left .liebherr {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  width: 545px;
+  margin-bottom: 30px;
+}
+.container .rentalequipment .left .liebherrjewels {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: 16px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.container .rentalequipment .left .Requestacall {
+  width: 219px;
+  height: 50px;
+  background-color: transparent;
+}
+.container .rentalequipment .left .twobtn {
+  display: flex;
+  gap: 28px;
+}
+.container .rentalequipment .left .leftarroww {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  margin-left: 478px;
+  margin-top: 94px;
+  font-size: 35px;
+  padding: 20px;
+}
+.container .rentalequipment .left .leftarroww:hover {
+  background: #fcb427;
+  transition: 0.5s;
+}
+.container .rentalequipment .left .Equipmentcatalog {
+  width: 219px;
+  height: 50px;
+  background-color: transparent;
+}
+.container .rentalequipment .left .Equipmentcatalog:hover {
+  background-color: #fcb427;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+.container .rentalequipment .left .Requestacall:hover {
+  background-color: #fcb427;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+.container .rentalequipment .rightarroww {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  margin-left: 458px;
+  margin-top: 94px;
+  font-size: 35px;
+  padding: 16px;
+  margin-top: 530px;
+  margin-right: 600px;
+  margin-left: 0px;
+}
+.container .rentalequipment .rightarroww:hover {
+  background: #fcb427;
+  transition: 0.5s;
+}
+.container .Specialequipment {
+  height: 565px;
+  background-image: url("../img/Фон.png");
+}
+.container .Specialequipment h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 51px;
+  margin-left: 215px;
+}
+.container .Specialequipment h2 span {
+  color: #fcb427;
+}
+.container .Specialequipment img {
+  width: 646px;
+  height: 458px;
+}
+.container .Specialequipment .imgandCrawlercranes {
+  display: flex;
+  margin-top: 55px;
+}
+.container .Specialequipment .imgandCrawlercranes h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 33px;
+}
+.container .Specialequipment .imgandCrawlercranes p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: 500px;
+  margin-top: 32px;
+}
+.container .Specialequipment .imgandCrawlercranes .straightline {
+  display: flex;
+}
+.container .Specialequipment .imgandCrawlercranes .straightline img {
+  width: 120px;
+  height: 100px;
+}
+.container .Specialequipment .imgandCrawlercranes .Selectaspecialist {
+  width: 219px;
+  height: 50px;
+  background-color: transparent;
+  margin-top: 32px;
+}
+.container .Specialequipment .imgandCrawlercranes .Selectaspecialist:hover {
+  background-color: #fcb427;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+.container .Specialequipment .strelkaa {
+  display: flex;
+  gap: 10px;
+  margin-left: 370px;
+  margin-top: 54px;
+}
+.container .Specialequipment .strelkaa i {
+  font-size: 40px;
+}
+.container .Reliablewithus {
+  height: 600px;
+  background-color: rgb(246, 246, 246);
+}
+.container .Reliablewithus .reliably {
+  font-size: 40px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 114px;
+  padding-top: 20px;
+}
+.container .Reliablewithus .textandicons {
+  display: flex;
+  margin-left: 114px;
+  gap: 50px;
+}
+.container .Reliablewithus .textandicons .icons {
+  display: flex;
+  gap: 80px;
+}
+.container .Reliablewithus .textandicons .icons .twoimage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 70px;
+}
+.container .Reliablewithus .textandicons .icons .twoimage img {
+  width: 70px;
+  height: 69px;
+}
+.container .Reliablewithus .textandicons .icons .twoimage p {
+  width: 175px;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.container .Reliablewithus .textandicons .text p {
+  width: 460px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.container .Reliablewithus .blackblock {
+  display: flex;
+  flex-direction: column;
+  height: 264px;
+  background-color: black;
+  margin-top: 100px;
+}
+.container .Reliablewithus .blackblock .unions {
+  margin-top: 50px;
+}
+.container .Reliablewithus .blackblock .number {
+  display: flex;
+  gap: 150px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.container .Reliablewithus .blackblock .number .twenty p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.container .Reliablewithus .blackblock .number .thousand p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+.container .Reliablewithus .blackblock .number .twentyplus p {
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .container .sliderbox {
+    display: flex;
+    height: 600px;
+    overflow: scroll;
+  }
+  .container .rentalequipment {
+    width: 768px;
+  }
+  .container .rentalequipment .left {
+    width: 65%;
+    padding-left: 20px;
+    padding-top: 90px;
+  }
+  .container .rentalequipment .left .liebherr {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    width: 445px;
+    margin-bottom: 30px;
+  }
+  .container .rentalequipment .left .twobtn {
+    display: flex;
+    gap: 28px;
+  }
+  .container .rentalequipment .left .leftarroww {
+    margin-left: 410px;
+    margin-top: 64px;
+  }
+  .container .Specialequipment h2 {
+    display: none;
+  }
+  .container .Specialequipment .imgandCrawlercranes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .container .Specialequipment .imgandCrawlercranes img {
+    width: 648px;
+    height: 458px;
+    margin-bottom: 50px;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes {
+    margin-left: 70px;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes .strelkaa {
+    margin-right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes .strelkaa i {
+    font-size: 50px;
+  }
+  .container .Reliablewithus {
+    height: 865px;
+  }
+  .container .Reliablewithus .reliably {
+    margin-top: 350px;
+  }
+  .container .Reliablewithus .textandicons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .container .Reliablewithus .blackblock {
+    height: 710px;
+  }
+  .container .Reliablewithus .blackblock .number {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .Reliablewithus .blackblock .number .twenty {
+    margin: 0 auto;
+  }
+  .container .Reliablewithus .blackblock .number .twentyplus {
+    margin: 0 auto;
+  }
+  .container .Reliablewithus .blackblock .number .twentyplus img {
+    padding-left: 40px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .container .sliderbox {
+    overflow: hidden;
+  }
+  .container .rentalequipment .leftarroww,
+  .container .rentalequipment .rightarroww {
+    display: none;
+  }
+  .container .rentalequipment .left {
+    width: 100%;
+    padding-top: 31px;
+  }
+  .container .rentalequipment .left .liebherr {
+    width: 291px;
+  }
+  .container .rentalequipment .left .liebherrjewels {
+    width: 284px;
+  }
+  .container .rentalequipment .left .twobtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .Specialequipment h2 {
+    display: block;
+    width: 315px;
+    font-size: 40px;
+    margin-left: 15px;
+  }
+  .container .Specialequipment .imgandCrawlercranes img {
+    width: 291px;
+    height: 206px;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes {
+    margin-left: 15px;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes p {
+    width: 289px;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes .strelkaa {
+    display: none;
+  }
+  .container .Specialequipment .imgandCrawlercranes .Crawlercranes .straightline .imgg {
+    display: none;
+  }
+  .container .Reliablewithus .reliably {
+    width: 300px;
+    margin-left: 15px;
+  }
+  .container .Reliablewithus .textandicons {
+    margin-left: 10px;
+  }
+  .container .Reliablewithus .textandicons .icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .container .Reliablewithus .textandicons .text {
+    margin-left: 30px;
+  }
+  .container .Reliablewithus .textandicons .text p {
+    width: 220px;
+  }
+  .container .Reliablewithus .blackblock .unions {
+    margin-top: 74px;
+  }
+}/*# sourceMappingURL=global.css.map */
