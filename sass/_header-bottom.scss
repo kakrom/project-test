@@ -1,0 +1,142 @@
+@media only screen and (max-width:768px) {
+    .header-catalog {
+        &-bar {
+
+            i {
+                display: block;
+                font-size: 24px;
+            }
+        }
+
+        &-item {
+            transition: 1s;
+
+            i {
+                font-size: 27px;
+            }
+
+            ul {
+                a {
+                    font-size: 31px;
+                }
+            }
+        }
+
+        &-icon {
+            input {
+                width: 240px;
+                height: 20px;
+            }
+
+            label {
+                left: 220px;
+                top: 8px;
+            }
+
+        }
+
+        &-icon {
+            position: absolute;
+            right: 0;
+        }
+    }
+}
+
+.header-catalog {
+    padding: 10px 15px;
+    display: flex;
+    // gap: 120px;
+    justify-content: space-between;
+
+    &-bar {
+        position: relative;
+
+        i {
+            font-size: 18px;
+        }
+    }
+
+    &-item {
+        position: relative;
+        position: absolute;
+        left: -200%;
+        top: 0;
+        background-color: white;
+        width: 100%;
+        z-index: 999;
+
+        i {
+            font-size: 20px;
+            position: absolute;
+            top: 25px;
+            right: 19px;
+        }
+
+        ul {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin: 25px;
+
+            a {
+                color: #000;
+                font-size: 16px;
+                font-family: 'Montserrat';
+            }
+
+        }
+    }
+
+    &-icon {
+        position: relative;
+        z-index: 1;
+
+        input {
+            width: 130px;
+            height: 30;
+        }
+
+        label {
+            img {
+                width: 15px;
+                height: 15px;
+            }
+
+            position: absolute;
+            left:110px;
+            top: 10%;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .header-catalog {
+        position: relative;
+
+        &-bar {
+            display: none;
+        }
+
+        &-item {
+            i {
+                display: none;
+            }
+
+            ul {
+
+                flex-direction: row;
+            }
+
+            left: 0;
+            top: -60%;
+
+            background: transparent;
+        }
+
+        &-icon {
+            position: absolute;
+            right: 15px;
+        }
+    }
+}

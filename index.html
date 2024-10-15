@@ -1,72 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/global.css">
+
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.x.x/css/all.min.css">
+
+    <title>Еврокран</title>
 </head>
+
 <body>
-    <header>
+
+    <header class="header">
         <nav>
             <div class="header-block">
-                <div class="header-block-top">
-                    <div class="container">
+                <div class="container header-block-top">
+                    
                         <div class="header-block-top-item">
-                            <img src="img/Vector.svg" alt="" class="img-evrokran">
-                            <h6>Аренда спецтехники <br> LIEBHERR c 2000 года</h6>
+                            <img src="image/Vector (1).svg" alt="Logo">
+                        <p>Аренда спецтехники <br> LIEBHERR с 2000 года</p>
+                    </div>
+                    <div class="header-block-top-clockandlocal">
+                        <div class="clock">
+                            <img src="image/Group.png" alt="Clock">
+                            <p>10:00-17:00</p>
                         </div>
-                        <div class="header-block-top-icon">
-                            <div class="header-block-top-icon-clockandkarta">
-                                <div class="clock">
-                                    <img src="img/bi_clock.png" alt="">
-                                    <h6>10:00-17:00</h6>
-                                </div>
-                                <div class="karta">
-                                    <img src="img/pin 1.png" alt="">
-                                    <h6>г. Москва, <br> ул. Куликовская, 12</h6>
-                                </div>
-                            </div>
-                            <div class="header-block-top-icon-btn">
-                                <button><a href="#">Свяжитесь со мной</a></button>
-                            </div>
-                            <div class="header-block-top-icon-tel">
-                                <img src="img/phone-call 1.png" alt="" class="tel">
-                                <div class="nomer">
-                                    <p>+7 (499)929-96-66
-                                        <br>
-                                        +7 (985)364-55-18
-                                        <br>
-                                        +7 (985)226-20-30</p>
-                                </div>
-                            </div>
+                        <div class="local">
+                            <img src="image/pin 1 (1).png" alt="Location">
+                            <p>г. Москва, <br> ул. Куликовская, 12</p>
                         </div>
                     </div>
-
-                </div>
-                <div class="header-block-bottom">
-                    <div class="container">
-                        <div class="header-block-bottom-item">
-                            <ul>
-                                <li><a href="#">Каталок</a></li>
-                                <li><a href="#">Услуги</a></li>
-                                <li><a href="#">О компании</a></l-i>
-                                <li><a href="#">Объекты</a></li>
-                                <li><a href="#">Цены</a></li>
-                                <li><a href="#">Блог</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                            
+                    <div class="header-block-top-icon">
+                        <div class="btn">
+                            <button class="grey-btn">Свяжитесь со мной</button>
                         </div>
-                        <div class="header-block-bottom-input">
-                                <img src="img/magnifying-glass 1.png" alt="">
-                                <input type="text" >
-                            </div>
-                    </div>
+                        <div class="tel">
+                            <img src="image/Group (1).png" alt="Phone">
+                            <p>+7 (499)929-96-66 <br> +7 (985)364-55-18 <br> +7 (985)226-20-30</p>
+                        </div>
+                    
                 </div>
             </div>
+        </div>  
+              <div class="header-catalog">
+            <div class="container header-catalog-bar">
+                <i class="fa-solid fa-bars" onclick="menu_click()"></i>
+            </div>
+            <div class="header-catalog-item" id="menu_open">
+                <i class="fa-solid fa-x" onclick="menu_close() "></i>
+                <ul>
+                    <li><a href="#" class="link">Каталог</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Объекты</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="header-catalog-icon">
+                <label for="input"><img src="image/magnifying-glass 1 (1).png" alt=""></label>
+                <input type="text" name="input">
+            </div> 
         </nav>
-
     </header>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

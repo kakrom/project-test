@@ -1,10 +1,13 @@
 @import './header';
+@import './header-bottom';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 a {
     text-decoration: none;
 }
@@ -16,6 +19,6 @@ ol {
 }
 
 .container {
-    width: 1176px;
+    width: 88%;
     margin: 0 auto;
 }

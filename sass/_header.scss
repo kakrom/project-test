@@ -1,144 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=FontName&display=swap');
 
 .header-block {
-    &-top {
-        .container {
-            display: flex;
-            gap: 80px;
-        }
+    background-color: #2d2d2d;
+    padding: 15px 25px;
 
+    &-top {
         display: flex;
-        background: #2D2D2D;
+        justify-content: space-between;
 
         &-item {
-            .img-evrokran {
-                width: 126.11px;
-                height: 53.28px;
-            }
-
             display: flex;
             align-items: center;
-            gap: 21.1px;
+            gap: 25px;
 
-            h6 {
-                color: white;
-                font-size: 12px;
-                font-weight: 200;
-                line-height: 19.91px;
-                font-family: Montserrat;
+            img {
+                width: 170px;
+                height: auto;
+            }
 
+            p {
+                color: #fff;
+                font-family: 'Montserrat';
+                font-size: 20px;
+            }
+        }
+
+        &-clockandlocal {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            .clock {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+
+                p {
+                    color: #fff;
+                    font-family: 'Montserrat';
+                }
+            }
+
+            .local {
+                display: flex;
+                align-items: center;
+                gap: 7px;
+
+                p {
+                    color: #fff;
+                    font-family: 'Montserrat';
+                }
             }
         }
 
         &-icon {
             display: flex;
             align-items: center;
-            gap: 44px;
+            gap: 25px;
 
-            &-clockandkarta {
-                align-items: center;
-                display: flex;
-                gap: 18px;
-
-                .clock {
-                    display: flex;
-                    gap: 10px;
-                    align-items: center;
-
-                    img {
-                        width: 21px;
-                        height: 21px;
-                    }
-
-                    h6 {
-                        color: #fff;
-                    }
-                }
-
-                .karta {
-                    display: flex;
-                    gap: 10px;
-                    align-items: center;
-
-                    img {
-                        width: 21px;
-                        height: 21px;
-                    }
-
-                    h6 {
-                        color: #fff;
-                    }
-                }
+            .grey-btn {
+                border: 1px solid #FFBF1D;
+                background: transparent;
+                width: 170px;
+                padding: 15px 10px;
+                color: #fff;
+                font-size: px;
             }
 
-            &-btn {
-                button {
-                    padding: 8px 14px;
-                    border-color: #FFBF1D;
-                    background: transparent;
-
-                    a {
-                        border: #FFBF1D;
-                        text-decoration: none;
-                        color: #fff;
-                    }
-                }
-
-            }
-
-            &-tel {
+            .tel {
                 display: flex;
                 align-items: center;
-                gap: 18px;
+                gap: 9px;
 
                 img {
-                    width: 21px;
-                    height: 21px;
+                    width: 15px;
+                    height: 15px;
                 }
 
                 p {
                     color: #fff;
+                    font-family: 'Montserrat';
+                    font-size: 12px;
                 }
             }
         }
     }
-
-    &-bottom {
-        .container {
-            display: flex;
-            gap: 154px;
-        }
-
-        &-item {
-            ul {
-                display: flex;
-                align-items: center;
-                gap: 30px;
-                list-style: none;
-
-                a {
-                    text-decoration: none;
-                    color: #000;
-                    font-size: 19px;
-                    font-weight: 300;
+}
+@media only screen and (max-width:768px){
+    .header-block{
+        &-top{
+            &-clockandlocal{
+                display: none;
+            }
+            &-icon{
+                .btn{
+                    display: none;
                 }
             }
-
-        }
-        &-input{
-            display: flex;
+        }   
+    }
+}
+@media only screen and (max-width:320px){
+    .header-block{
+        &-top{
+            height: 200px;
+            position: relative;
+            flex-direction: column;
+            gap: 25px;
             align-items: center;
-            input{
-                width: 240px;
-                height: 30px;
-            }
-            img{
-                position: relative;
-                left: 230px;
-                color: #fff;
-                width: 15px;
-                height: 15px;
+            &-icon{
+                .tel{
+                    position: absolute;
+                    top: 120px;
+                    left: 14%;
+                }
             }
         }
-
     }
 }
